@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Still Alive - Legal Documents and Privacy Information">
+    <title>Still Alive - Legal Documents</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .intro {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+        }
+
+        .intro h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .intro p {
+            font-size: 1.1em;
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .features {
+            margin-bottom: 40px;
+        }
+
+        .features h3 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .features ul {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .features li {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+            transition: transform 0.2s;
+        }
+
+        .features li:hover {
+            transform: translateX(5px);
+            background: #e9ecef;
+        }
+
+        .features li::before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .documents {
+            display: grid;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .document-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            border-radius: 12px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .document-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .document-card h3 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+
+        .document-card p {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #e9ecef;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .contact {
+            margin-top: 20px;
+        }
+
+        .contact a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .intro, .document-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Still Alive</h1>
+            <p>Peace of Mind for You and Your Loved Ones</p>
+        </header>
+
+        <div class="content">
+            <div class="intro">
+                <h2>About Still Alive</h2>
+                <p>
+                    Still Alive is a mobile application designed to provide peace of mind for you and your loved ones. 
+                    The app allows users to confirm they are alive by checking in regularly. If a user doesn't check 
+                    in within their configured time interval, the app automatically sends notifications to their 
+                    designated emergency contacts.
+                </p>
+            </div>
+
+            <div class="features">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Regular check-in reminders</li>
+                    <li>Customizable check-in intervals</li>
+                    <li>Emergency contact management</li>
+                    <li>Automatic email notifications</li>
+                    <li>Multi-language support</li>
+                    <li>Secure data storage</li>
+                </ul>
+            </div>
+
+            <h3 style="margin-bottom: 20px; color: #333; font-size: 1.8em;">Legal Documents</h3>
+            <div class="documents">
+                <a href="privacy-policy.html" class="document-card">
+                    <h3>📋 Privacy Policy</h3>
+                    <p>Learn how we collect, use, and protect your personal information.</p>
+                </a>
+
+                <a href="terms-of-service.html" class="document-card">
+                    <h3>📜 Terms of Service</h3>
+                    <p>Read the terms and conditions for using the Still Alive app.</p>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Last Updated:</strong> January 16, 2026</p>
+            <p>© 2026 Still Alive. All rights reserved.</p>
+            <div class="contact">
+                <p>For questions or concerns: <a href="mailto:smartaiforge@gmail.com">smartaiforge@gmail.com</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
